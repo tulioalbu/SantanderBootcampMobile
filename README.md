@@ -14,5 +14,8 @@ Primeiro exercício, referente ao módulo "Introdução ao Kotlin". Consiste em 
 ### digioneBank
 Segundo exercício, referente ao módulo "Fundamentos de orientação a objetos com Kotlin". Entendendo conceitos de abstração, herança, polimorfismo e encapsulamento dentro da lógica da linguagem.
 
+### apiCollections 
+Estudos sobre Arrays
+
 
 
