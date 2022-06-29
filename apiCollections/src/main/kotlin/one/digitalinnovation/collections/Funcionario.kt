@@ -10,6 +10,7 @@ data class funcionario (
         """
             Nome: $nome
             Salário: $salario
+            Tipo do Contrato: $tipoContratacao
         """.trimIndent()
 
 }
