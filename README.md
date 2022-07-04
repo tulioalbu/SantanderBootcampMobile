@@ -17,5 +17,7 @@ Segundo exercício, referente ao módulo "Fundamentos de orientação a objetos 
 ### apiCollections 
 Estudos sobre Arrays, Lists e Funções estendidas. 
 
+### Simulator
 
+Base para a criação do primeiro app Android. 
 
