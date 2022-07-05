@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Simulator</string>
+    <string name="txt_simulate">Match Simulator Button</string>
+    <string name="cd_simulate">Teste</string>
 </resources>
