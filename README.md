@@ -19,5 +19,5 @@ Estudos sobre Arrays, Lists e Funções estendidas.
 
 ### Simulator
 
-Base para a criação do primeiro app Android. 
+Criação de um App Simulador de Partidas. 
 
