@@ -4,5 +4,6 @@
     <string name="cd_simulator">Botão de simulação de partidas</string>
     <string name="cd_home_team">Imagem do Time Mandante</string>
     <string name="cd_away_team">Imagem do time visitante</string>
+    <string name="error_api">Erro Inesperado</string>
 
 </resources>
