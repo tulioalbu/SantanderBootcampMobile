@@ -1,14 +1,19 @@
 package me.dio.simulator.ui.adapter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.List;
 
 import me.dio.simulator.databinding.MatchItemBinding;
 import me.dio.simulator.domain.Match;
+import me.dio.simulator.ui.DetailActivity;
 
 public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHolder> {
 
@@ -16,6 +21,10 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
 
     public MatchesAdapter (List<Match> matches) {
         this.matches = matches;
+    }
+
+    public List<Match> getMatches() {
+        return matches;
     }
 
     @NonNull
@@ -28,10 +37,24 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        Context context = holder.itemView.getContext();
         Match match = matches.get(position);
-        holder.binding.tvHomeTeamName.setText(match.getHomeTeam().getName());
-        holder.binding.tvAwayTeamName.setText(match.getAwayTeam().getName());
 
+        Glide.with(context).load(match.getHomeTeam().getImage()).circleCrop().into(holder.binding.ivHomeTeam);
+        holder.binding.tvHomeTeamName.setText(match.getHomeTeam().getName());
+        if (match.getHomeTeam().getScore() != null) {
+            holder.binding.tvHomeTeamScore.setText(String.valueOf(match.getHomeTeam().getScore()));
+        }
+        Glide.with(context).load(match.getAwayTeam().getImage()).circleCrop().into(holder.binding.ivAwayTeam);
+        holder.binding.tvAwayTeamName.setText(match.getAwayTeam().getName());
+        if (match.getAwayTeam().getScore() != null) {
+            holder.binding.tvAwayTeamScore.setText(String.valueOf(match.getAwayTeam().getScore()));
+        }
+        holder.itemView.setOnClickListener(view -> {
+            Intent intent = new Intent(context, DetailActivity.class);
+            intent.putExtra(DetailActivity.Extras.MATCH, match);
+            context.startActivity(intent);
+        });
     }
 
     @Override
