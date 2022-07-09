@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90132520419",
+    "project_id": "simulator-dio-tulio",
+    "storage_bucket": "simulator-dio-tulio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90132520419:android:e4b1c335e10f9d254494d6",
+        "android_client_info": {
+          "package_name": "me.dio.simulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90132520419-67968udt41tjrnvualib3a1pdcf2dkti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbd4hFX9K6jksw8LE38n_v8PVbKD6YShg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90132520419-67968udt41tjrnvualib3a1pdcf2dkti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
