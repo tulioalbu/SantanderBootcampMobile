@@ -21,3 +21,8 @@ Estudos sobre Arrays, Lists e Funções estendidas.
 
 Criação de um App Simulador de Partidas. 
 
+<a href="https://im.ge/i/uvtFDX"><img src="https://i.im.ge/2022/07/11/uvtFDX.jpg" alt="uvtFDX.jpg" width= "500" border="0"></a>
+
+### desafiosdecodigo
+
+Todos os nove desafios de lógica do programa resolvidos. 
