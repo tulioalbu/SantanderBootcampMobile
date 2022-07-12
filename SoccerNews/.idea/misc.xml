@@ -5,10 +5,10 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1365" />
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1365" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_news.xml" value="0.28541666666666665" />
-        <entry key="app/src/main/res/layout/news_item.xml" value="0.337469482421875" />
+        <entry key="app/src/main/res/layout/fragment_news.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/news_item.xml" value="0.1" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3098958333333333" />
       </map>
     </option>
