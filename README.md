@@ -30,3 +30,5 @@ Todos os nove desafios de lógica do programa resolvidos.
 ### SoccerNews
 
 Criação de um App com notícias sobre futebol feminino. 
+
+<a href="https://im.ge/i/uetaE4"><img src="https://i.im.ge/2022/07/14/uetaE4.png" alt="uetaE4.png" width= "500" border="0"></a>
