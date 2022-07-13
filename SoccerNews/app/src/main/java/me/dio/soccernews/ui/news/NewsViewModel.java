@@ -1,27 +1,52 @@
 package me.dio.soccernews.ui.news;
 
+import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import me.dio.soccernews.data.remote.SoccerNewsApi;
 import me.dio.soccernews.domain.News;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class NewsViewModel extends ViewModel {
 
-    private final MutableLiveData<List<News>> news;
+    private final MutableLiveData<List<News>> news = new MutableLiveData<>();
+    private final SoccerNewsApi api;
 
     public NewsViewModel() {
-        news = new MutableLiveData<>();
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://tulioalbu.github.io/soccer-news-api/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
 
-        List<News> news = new ArrayList<>();
-        news.add(new News("Karla tem sondagem de time da China", "Atacante alvirrubra fez 43 gols na temporada."));
-        news.add(new News("Santa Cruz empata com Souza/PB", "No campeonato do Nordeste de futebol feminino, times estrearam empatados"));
-        news.add(new News("Retrô consegue accesso à série C", "15 vitórias depois, o time alcançou o objetivo."));
+        api = retrofit.create(SoccerNewsApi.class);
+        this.findNews();
+    }
 
-        this.news.setValue(news);
+    private void findNews() {
+        api.getNews().enqueue(new Callback<List<News>>() {
+            @Override
+            public void onResponse(@NonNull Call<List<News>> call, @NonNull Response<List<News>> response) {
+                if (response.isSuccessful()) {
+                    news.setValue(response.body());
+
+                } else {
+
+                }
+            }
+
+            @Override
+            public void onFailure(@NonNull Call<List<News>> call, @NonNull Throwable t) {
+
+            }
+        });
     }
 
     public LiveData<List<News>> getNews() {
