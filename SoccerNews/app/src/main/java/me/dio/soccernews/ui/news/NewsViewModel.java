@@ -20,13 +20,15 @@ public class NewsViewModel extends ViewModel {
     private final MutableLiveData<List<News>> news = new MutableLiveData<>();
     private final SoccerNewsApi api;
 
-    public NewsViewModel() {
+
+    public NewsViewModel () {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://tulioalbu.github.io/soccer-news-api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
         api = retrofit.create(SoccerNewsApi.class);
+
         this.findNews();
     }
 
@@ -52,4 +54,5 @@ public class NewsViewModel extends ViewModel {
     public LiveData<List<News>> getNews() {
         return this.news;
     }
+
 }
