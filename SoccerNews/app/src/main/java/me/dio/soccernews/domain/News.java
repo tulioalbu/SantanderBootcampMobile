@@ -11,7 +11,7 @@ public class News {
     private String description;
     private String image;
     private String link;
-    public Boolean favorite;
+    public boolean favorite;
 
     public String getTitle() {
         return title;

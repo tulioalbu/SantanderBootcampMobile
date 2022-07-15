@@ -1,3 +1,4 @@
+
 //Desafio
 //Escreva um algoritmo que leia 2 valores inteiros A e B calcule a soma dos números
 // que não são múltiplos de 13 entre A e B, incluindo ambos.
@@ -30,4 +31,3 @@ fun main() {
     }
     println(total)
 }
-
