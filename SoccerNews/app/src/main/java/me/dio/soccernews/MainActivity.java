@@ -7,21 +7,16 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.room.Room;
 
-import me.dio.soccernews.data.local.AppDatabase;
 import me.dio.soccernews.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
-    private ActivityMainBinding binding;
-    private AppDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        me.dio.soccernews.databinding.ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Passing each menu ID as a set of Ids because each
@@ -33,15 +28,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
-        setupDb();
     }
 
-    private void setupDb() {
-        db = Room.databaseBuilder(this, AppDatabase.class, "soccer-news").allowMainThreadQueries().build();
-    }
-
-    public AppDatabase getDb () {
-        return db;
-    }
 
 }
