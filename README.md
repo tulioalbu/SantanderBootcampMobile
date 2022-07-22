@@ -27,7 +27,7 @@ Criação de um App Simulador de Partidas.
 
 Todos os nove desafios de lógica do programa resolvidos. 
 
-### SoccerNews
+### SoccerNews-Braza
 
 Criação de um App com notícias sobre futebol feminino. 
 
