@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_soccer"
-        android:title="@string/title_news" />
+        android:icon="@drawable/ic_football_ball"
+        android:title="@string/txt_ultimas" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_favorites"
-        android:title="@string/title_favorites" />
+        android:icon="@drawable/ic_love"
+        android:title="@string/txt_lerdepois" />
+
 
 </menu>

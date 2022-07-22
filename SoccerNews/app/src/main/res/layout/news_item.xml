@@ -54,7 +54,7 @@
             android:layout_marginStart="@dimen/activity_default_margin"
             android:layout_marginTop="@dimen/activity_default_margin"
             android:layout_marginBottom="@dimen/activity_default_margin"
-            android:text="Open Link"
+            android:text="@string/txt_button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDescription" />

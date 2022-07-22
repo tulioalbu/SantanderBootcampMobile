@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Braza</string>
-    <string name="title_news">O que há de novo</string>
-    <string name="title_favorites">Favorites</string>
+    <string name="title_news">Últimas</string>
+    <string name="title_favorites">Arquivo</string>
     <string name="cd_news_image">news_image</string>
     <string name="cd_favorites_icon">Favorites icon</string>
     <string name="cd_share_icon">share icon</string>
+    <string name="txt_ultimas">Últimas Notícias</string>
+    <string name="txt_lerdepois">Ler Depois</string>
+    <string name="txt_button">Ler mais</string>
 </resources>

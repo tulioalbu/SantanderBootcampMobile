@@ -16,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        me.dio.soccernews.databinding.ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        me.dio.soccernews.databinding.ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());setContentView(binding.getRoot());
 
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
