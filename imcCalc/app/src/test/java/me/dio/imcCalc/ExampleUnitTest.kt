@@ -1,4 +1,4 @@
-package me.dio.imcapp
+package me.dio.imcCalc
 
 import org.junit.Test
 
