@@ -32,3 +32,7 @@ Todos os nove desafios de lógica do programa resolvidos.
 Criação de um App com notícias sobre futebol feminino. 
 
 <a href="https://im.ge/i/uet58m"><img src="https://i.im.ge/2022/07/14/uet58m.png" alt="uet58m.png" width = "500" border="0"></a>
+
+### imcCalc
+
+Criação de um App para cáculo de IMC. 
