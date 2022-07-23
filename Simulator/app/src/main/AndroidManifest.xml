@@ -18,7 +18,12 @@
 
         <activity
             android:name=".ui.MainActivity"
-            android:exported="true">
+            android:exported="true"/>
+
+        <activity
+            android:name=".ui.SplashScreenActivity" android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="true"
+            tools:ignore="MissingClass">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
