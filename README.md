@@ -21,7 +21,12 @@ Estudos sobre Arrays, Lists e Funções estendidas.
 
 Criação de um App Simulador de Partidas. 
 
-<a href="https://im.ge/i/uvtFDX"><img src="https://i.im.ge/2022/07/11/uvtFDX.jpg" alt="uvtFDX.jpg" width= "500" border="0"></a>
+<p float="left">
+   <img src="https://tulioalbu.github.io/SantanderBootcampMobile/Simulator/Screenshots/Screenshot_20220722_211218.png" width = "100" hspace="2">
+   <img src="https://tulioalbu.github.io/SantanderBootcampMobile/Simulator/Screenshots/Screenshot_20220722_211323.png" width = "100" hspace="2">
+   <img src="https://tulioalbu.github.io/SantanderBootcampMobile/Simulator/Screenshots/Screenshot_20220722_211356.png" width = "100" hspace="2">
+ 
+  <div>
 
 ### desafiosdecodigo
 
@@ -31,7 +36,12 @@ Todos os nove desafios de lógica do programa resolvidos.
 
 Criação de um App com notícias sobre futebol feminino. 
 
-<a href="https://im.ge/i/uet58m"><img src="https://i.im.ge/2022/07/14/uet58m.png" alt="uet58m.png" width = "500" border="0"></a>
+<p float="left">
+   <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024605.png" width = "100" hspace="2">
+   <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024515.png" width = "100" hspace="2"> 
+  <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024616.png" width = "100" hspace="2">   
+  <div>
+     
 
 ### imcCalc
 
