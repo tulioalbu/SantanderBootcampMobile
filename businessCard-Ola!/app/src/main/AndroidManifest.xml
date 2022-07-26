@@ -14,14 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BusinessCard"
         tools:targetApi="31">
+
+
         <activity
-            android:name=".ui.AddBusinessCardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".SplashScreenActivity"
+            android:name="me.dio.businesscard.ui.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -30,6 +26,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="me.dio.businesscard.ui.MainActivity"
+            android:exported="true"
+        />
+        <activity
+            android:name="me.dio.businesscard.ui.AddBusinessCardActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

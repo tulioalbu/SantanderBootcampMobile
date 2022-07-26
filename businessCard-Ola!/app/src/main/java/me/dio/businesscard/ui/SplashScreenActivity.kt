@@ -1,4 +1,4 @@
-package me.dio.businesscard
+package me.dio.businesscard.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,13 +6,16 @@ import android.os.Bundle
 import android.os.Handler
 
 import androidx.appcompat.app.AppCompatActivity
-import me.dio.businesscard.ui.MainActivity
+import me.dio.businesscard.databinding.ActivitySplashScreenBinding
+
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
+
+    private val binding by lazy { ActivitySplashScreenBinding.inflate(layoutInflater)}
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash_screen)
+        setContentView(binding.root)
 
         supportActionBar?.hide()
 
