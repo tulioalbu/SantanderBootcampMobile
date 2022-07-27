@@ -17,7 +17,7 @@
 
 
         <activity
-            android:name="me.dio.businesscard.ui.SplashScreenActivity"
+            android:name=".ui.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -27,12 +27,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="me.dio.businesscard.ui.MainActivity"
+            android:name=".ui.AddBusinessCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true"
         />
-        <activity
-            android:name="me.dio.businesscard.ui.AddBusinessCardActivity"
-            android:exported="false" />
+
     </application>
 
 </manifest>
