@@ -9,4 +9,5 @@
     <string name="color">Color</string>
     <string name="confirm">Confirm</string>
     <string name="label_show_success">Cartão cadastrado com sucesso</string>
+    <string name="label_share">Compartilhar</string>
 </resources>

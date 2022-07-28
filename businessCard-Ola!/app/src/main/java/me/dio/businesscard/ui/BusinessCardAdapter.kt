@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import me.dio.businesscard.data.BusinessCard
 import me.dio.businesscard.databinding.ItemBusinessCardBinding
 
+
 class BusinessCardAdapter :
     ListAdapter<BusinessCard, BusinessCardAdapter.ViewHolder>(DiffCallback()) {
 
