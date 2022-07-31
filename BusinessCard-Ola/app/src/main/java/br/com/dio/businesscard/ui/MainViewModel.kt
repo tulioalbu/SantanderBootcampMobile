@@ -16,6 +16,10 @@ class MainViewModel(private val businessCardRepository: BusinessCardRepository):
         return businessCardRepository.getAll()
     }
 
+    fun delete(card: BusinessCard) {
+        businessCardRepository.delete(card)
+    }
+
 }
 
 class MainViewModelFactory(private val repository: BusinessCardRepository) : ViewModelProvider.Factory {

@@ -101,26 +101,19 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_cor"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    <Button
+        android:id="@+id/bt_color"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:hint="@string/label_cor"
+        android:drawableLeft="@drawable/ic_colorpalette"
+        android:hint="@string/color"
+        android:padding="8dp"
+        android:textAlignment="viewStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_empresa">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:inputType="text"
-            android:textAllCaps="true"
-            />
-            />
-
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@id/til_empresa" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_confirm"
@@ -130,6 +123,6 @@
         android:text="@string/label_confirmar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_cor" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_color" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
