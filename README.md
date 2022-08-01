@@ -53,5 +53,5 @@ Criação de um app de compartilhamento de cartões de visita.
 
 ### githubStage
 
-Criação de um app para compartilhar repositórios do Github
+Criação de um app para compartilhar repositórios do Githu
 
