@@ -14,6 +14,7 @@ class BusinessCardAdapter :
     ListAdapter<BusinessCard, BusinessCardAdapter.ViewHolder>(DiffCallback()) {
 
     var listenerShare: (View) -> Unit = {}
+    var listenerDelete:(BusinessCard) -> Unit = {}
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
@@ -39,6 +40,8 @@ class BusinessCardAdapter :
             binding.cdContent.setOnClickListener {
                 listenerShare(it)
             }
+            binding.btDelete.setOnClickListener {
+                listenerDelete(item) }
         }
     }
 

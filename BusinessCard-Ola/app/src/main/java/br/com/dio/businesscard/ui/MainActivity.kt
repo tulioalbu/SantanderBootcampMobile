@@ -49,12 +49,16 @@ class MainActivity : AppCompatActivity() {
         adapter.listenerShare = { card ->
             Image.share(this@MainActivity, card)
         }
+
+        adapter.listenerDelete = { card ->
+            mainViewModel.delete(card)
+        }
     }
 
     private fun getAllBusinessCard() {
-        mainViewModel.getAll().observe(this, { businessCards ->
+        mainViewModel.getAll().observe(this) { businessCards ->
             adapter.submitList(businessCards)
-        })
+        }
     }
 
 

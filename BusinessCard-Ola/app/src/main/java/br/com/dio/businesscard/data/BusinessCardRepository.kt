@@ -14,4 +14,10 @@ class BusinessCardRepository(private val dao: BusinessCardDao) {
 
     fun getAll() = dao.getAll()
 
+    fun delete(businesscard: BusinessCard) = runBlocking {
+        launch(Dispatchers.IO) {
+            dao.delete(businesscard)
+        }
+
+    }
 }

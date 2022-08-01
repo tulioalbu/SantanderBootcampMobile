@@ -9,13 +9,16 @@
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.10989583333333333" />
         <entry key="app/src/main/res/drawable/ic_ola_icon.xml" value="0.196" />
         <entry key="app/src/main/res/layout/acitivity_splash_screen.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_add_business_card.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_add_business_card.xml" value="0.23192749023437506" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.196746826171875" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/item_business_card.xml" value="0.21840996224138176" />
+        <entry key="app/src/main/res/layout/activity_teste.xml" value="0.344079339699667" />
+        <entry key="app/src/main/res/layout/item_business_card.xml" value="0.2645677991554442" />
+        <entry key="app/src/main/res/xml/preferencecolor.xml" value="0.15520833333333334" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
