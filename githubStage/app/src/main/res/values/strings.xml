@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">githubStage</string>
-    <string name="title_activity_maps">MapsActivity</string>
+    <string name="app_name">Github Stage</string>
+    <string name="action_search">Pesquisar</string>
 </resources>
