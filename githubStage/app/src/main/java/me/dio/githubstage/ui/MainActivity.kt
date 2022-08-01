@@ -1,21 +1,23 @@
 package me.dio.githubstage.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import me.dio.githubstage.R
 import me.dio.githubstage.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
+    private val 
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

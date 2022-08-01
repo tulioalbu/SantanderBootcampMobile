@@ -1,6 +1,8 @@
 package me.dio.githubstage
 
 import android.app.Application
+import me.dio.githubstage.data.di.DataModule
+import me.dio.githubstage.domain.di.DomainModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -12,5 +14,8 @@ class App : Application () {
         startKoin {
             androidContext(this@App)
         }
+
+        DataModule.load()
+        DomainModule.load()
     }
 }
