@@ -1,15 +1,14 @@
 package me.dio.githubstage.core
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.ProgressBar
 import androidx.appcompat.app.AlertDialog
-import me.dio.githubstage.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textfield.TextInputLayout
+import me.dio.githubstage.R
 
 var TextInputLayout.text: String
     get() = editText?.text?.toString() ?: ""
@@ -29,7 +28,6 @@ fun Context.createDialog(block: MaterialAlertDialogBuilder.() -> Unit = {}): Ale
     return builder.create()
 }
 
-@SuppressLint("PrivateResource")
 fun Context.createProgressDialog(): AlertDialog {
     return createDialog {
         val padding = this@createProgressDialog.resources.getDimensionPixelOffset(R.dimen.layout_padding)
