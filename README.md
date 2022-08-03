@@ -6,7 +6,7 @@
 
 
 # Santander Bootcamp Mobile
-Exercícios do Santander Bootcamp Mobile, onde estou estudando Java e Kotlin para desenvolvimento no Android Studio.
+Exercícios do Santander Bootcamp Mobile, onde estou estudando Java e Kotlin para desenvolvimento Android nativo. 
 
 ### calculadoraDIO
 Primeiro exercício, referente ao módulo "Introdução ao Kotlin". Consiste em criar uma calculadora simples, com o objetivo de treinar a sintaxe da linguagem.
