@@ -9,6 +9,7 @@ import com.bumptech.glide.Glide
 import me.dio.githubstage.data.model.Repo
 import me.dio.githubstage.databinding.ItemRepoBinding
 
+
 class RepoListAdapter : ListAdapter<Repo, RepoListAdapter.ViewHolder>(DiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_stars_24.xml" value="0.1115" />
         <entry key="app/src/main/res/drawable/ic_gitstage.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17920684814453125" />
+        <entry key="app/src/main/res/drawable/ic_pesquisa_de_pesquisa.xml" value="0.1115" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18575286865234375" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/item_repo.xml" value="0.23217926025390628" />
-        <entry key="app/src/main/res/menu/main_menu.xml" value="0.24968566894531252" />
+        <entry key="app/src/main/res/layout/item_repo.xml" value="0.4298858642578125" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
