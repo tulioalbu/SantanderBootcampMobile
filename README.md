@@ -22,11 +22,11 @@ Estudos sobre Arrays, Lists e Funções estendidas.
 Criação de um App Simulador de Partidas. 
 
 <p float="left">
-   <img src="https://tulioalbu.github.io/SantanderBootcampMobile/Simulator/Screenshots/Screenshot_20220722_211218.png" width = "100" hspace="2">
-   <img src="https://tulioalbu.github.io/SantanderBootcampMobile/Simulator/Screenshots/Screenshot_20220722_211323.png" width = "100" hspace="2">
-   <img src="https://tulioalbu.github.io/SantanderBootcampMobile/Simulator/Screenshots/Screenshot_20220722_211356.png" width = "100" hspace="2">
- 
-  <div>
+   <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173229.png" width = "120" hspace="2">
+   <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173344.png" width = "120" hspace="2">
+   <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173356.png" width = "120" hspace="2">
+
+
 
 ### desafiosdecodigo
 
@@ -37,9 +37,9 @@ Todos os nove desafios de lógica do programa resolvidos.
 Criação de um App com notícias sobre futebol feminino. 
 
 <p float="left">
-   <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024605.png" width = "100" hspace="2">
-   <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024515.png" width = "100" hspace="2"> 
-  <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024616.png" width = "100" hspace="2">   
+   <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024605.png" width = "120" hspace="2">
+   <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024515.png" width = "120" hspace="2"> 
+  <img src="https://tulioalbu.github.io/Braza_App-de-Noticias-de-Futebol-Feminino_Projeto-DIO/BrazaApp/Screenshots/Screenshot_20220722_024616.png" width = "120" hspace="2">   
   <div>
      
 
