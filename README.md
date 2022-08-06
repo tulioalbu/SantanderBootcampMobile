@@ -44,10 +44,11 @@ Criação de um App com notícias sobre futebol feminino.
 ### imcCalc
 
 Criação de um App para cáculo de IMC. 
-
-<img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_161037.png" width = "120" hspace="2">
-<img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_161007.png" width = "120" hspace="2">
+     
+     
 <img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_141629.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_161007.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_161037.png" width = "120" hspace="2">
 
 ### businessCard-Ola!
 
