@@ -17,6 +17,10 @@ Segundo exercício, referente ao módulo "Fundamentos de orientação a objetos 
 ### apiCollections 
 Estudos sobre Arrays, Lists e Funções estendidas. 
 
+### desafiosdecodigo
+
+Todos os nove desafios de lógica do programa resolvidos. 
+
 ### Simulator
 
 Criação de um App Simulador de Partidas. 
@@ -25,12 +29,6 @@ Criação de um App Simulador de Partidas.
    <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173229.png" width = "120" hspace="2">
    <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173344.png" width = "120" hspace="2">
    <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173356.png" width = "120" hspace="2">
-
-
-
-### desafiosdecodigo
-
-Todos os nove desafios de lógica do programa resolvidos. 
 
 ### SoccerNews-Braza
 
