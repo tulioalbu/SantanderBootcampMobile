@@ -47,9 +47,13 @@ Criação de um App com notícias sobre futebol feminino.
 
 Criação de um App para cáculo de IMC. 
 
+<img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_161037.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_161007.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/Imc-Calc_Projeto-DIO/Screenshots/Screenshot_20220806_141629.png" width = "120" hspace="2">
+
 ### businessCard-Ola!
 
-Criação de um app de compartilhamento de cartões de visita.
+Criação de um app de criação e compartilhamento de cartões de visita.
 
 <img src="https://tulioalbu.github.io/Ola_BusinessCards_Projeto-DIO/Screenshots/Screenshot_20220806_004458.png" width = "120" hspace="2">
 <img src="https://tulioalbu.github.io/Ola_BusinessCards_Projeto-DIO/Screenshots/Screenshot_20220806_004008.png" width = "120" hspace="2">
@@ -57,7 +61,7 @@ Criação de um app de compartilhamento de cartões de visita.
 
 ### githubStage
 
-Criação de um app para compartilhar repositórios do Github
+Criação de um app para listar repositórios do Github.
 
 <img src="https://tulioalbu.github.io/GithubStage_Projeto-Dio/Screenshots/Screenshot_20220806_023153.png" width = "120" hspace="2">
 <img src="https://tulioalbu.github.io/GithubStage_Projeto-Dio/Screenshots/Screenshot_20220806_023146.png" width = "120" hspace="2">
