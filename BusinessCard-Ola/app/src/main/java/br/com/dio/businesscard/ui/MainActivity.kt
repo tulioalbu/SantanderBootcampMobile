@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpPermissions() {
-        // write permission to access the storage
         ActivityCompat.requestPermissions(
             this,
             arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),

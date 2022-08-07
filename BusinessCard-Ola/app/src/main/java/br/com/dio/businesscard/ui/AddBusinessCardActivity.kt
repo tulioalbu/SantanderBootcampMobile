@@ -8,12 +8,11 @@ import br.com.dio.businesscard.App
 import br.com.dio.businesscard.R
 import br.com.dio.businesscard.data.BusinessCard
 import br.com.dio.businesscard.databinding.ActivityAddBusinessCardBinding
-import yuku.ambilwarna.AmbilWarnaDialog
 
 
 class AddBusinessCardActivity : AppCompatActivity() {
 
-    private var mDefaultColor = R.color.primaryColor
+
     private val binding by lazy { ActivityAddBusinessCardBinding.inflate(layoutInflater) }
 
     private val mainViewModel: MainViewModel by viewModels {
@@ -26,25 +25,9 @@ class AddBusinessCardActivity : AppCompatActivity() {
         insertListeners()
     }
 
-    private fun setColorPicker() {
-        val dialog = AmbilWarnaDialog(this@AddBusinessCardActivity, mDefaultColor,
-            object : AmbilWarnaDialog.OnAmbilWarnaListener {
-                override fun onOk(dialog: AmbilWarnaDialog, color: Int) {
-                    binding.btColor.setBackgroundColor(color)
-                    mDefaultColor = color
-                }
-
-                override fun onCancel(dialog: AmbilWarnaDialog) {
-                    Toast.makeText(applicationContext, "cancel", Toast.LENGTH_SHORT).show()
-                }
-            })
-        dialog.show()
-    }
 
     private fun insertListeners() {
 
-
-        binding.btColor.setOnClickListener { setColorPicker() }
 
         binding.btnConfirm.setOnClickListener {
             val businessCard = BusinessCard(
@@ -52,7 +35,7 @@ class AddBusinessCardActivity : AppCompatActivity() {
                 empresa = binding.tilEmpresa.editText?.text.toString(),
                 telefone = binding.tilTelefone.editText?.text.toString(),
                 email = binding.tilEmail.editText?.text.toString(),
-                fundoPersonalizado = mDefaultColor.toString()
+                fundoPersonalizado = binding.tilCor.editText?.text.toString()
             )
             mainViewModel.insert(businessCard)
             Toast.makeText(this, R.string.label_show_success, Toast.LENGTH_SHORT).show()
