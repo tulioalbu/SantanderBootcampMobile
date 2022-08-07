@@ -67,4 +67,4 @@ Criação de um app para listar repositórios do Github.
 
 ### Pipoquinha
 
-Criação de um app de filmes. 
+Criação de um app para recomendação de filmes. 
