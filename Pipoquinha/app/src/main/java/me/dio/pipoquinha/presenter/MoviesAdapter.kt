@@ -1,4 +1,4 @@
-package me.dio.pipoquinha.view
+package me.dio.pipoquinha.presenter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import kotlinx.android.synthetic.main.movie_item_layout.view.*
 import me.dio.pipoquinha.R
-import me.dio.pipoquinha.model.Movie
+import me.dio.pipoquinha.domain.Movie
 
 class MoviesAdapter(private val moviesList: List<Movie>): RecyclerView.Adapter<MoviesViewHolder>() {
 

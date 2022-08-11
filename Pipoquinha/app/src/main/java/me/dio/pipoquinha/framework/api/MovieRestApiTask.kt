@@ -1,4 +1,4 @@
-package me.dio.pipoquinha.api
+package me.dio.pipoquinha.framework.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

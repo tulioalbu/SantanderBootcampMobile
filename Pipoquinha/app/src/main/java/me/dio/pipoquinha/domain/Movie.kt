@@ -1,4 +1,4 @@
-package me.dio.pipoquinha.model
+package me.dio.pipoquinha.domain
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

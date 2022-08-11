@@ -1,15 +1,14 @@
-package me.dio.pipoquinha.view
+package me.dio.pipoquinha.presenter
 
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import kotlinx.android.synthetic.main.activity_main.*
 import me.dio.pipoquinha.R
-import me.dio.pipoquinha.model.Movie
-import me.dio.pipoquinha.viewmodel.MovieListViewModel
+import me.dio.pipoquinha.domain.Movie
+import me.dio.pipoquinha.framework.api.viewmodel.MovieListViewModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +30,6 @@ class MainActivity : AppCompatActivity() {
                 populateList(list)
                 loadingVisibility(false)
             }
-            populateList(list)
         }
 
     }

@@ -1,12 +1,10 @@
-package me.dio.pipoquinha.api
+package me.dio.pipoquinha.framework.api
 
-import me.dio.pipoquinha.model.Movie
+import me.dio.pipoquinha.domain.Movie
 import retrofit2.Call
 import retrofit2.http.GET
 
 interface MovieApi {
-
-    // https://raw.githubusercontent.com/natanfelipe/FilmesFlixJson/main/moviesList
 
     @GET("natanfelipe/FilmesFlixJson/main/moviesList")
     fun getAllMovies(): Call<List<Movie>>

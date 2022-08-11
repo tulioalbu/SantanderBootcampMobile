@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Pipoquinha"
         tools:targetApi="31">
         <activity
-            android:name=".view.MainActivity"
+            android:name=".presenter.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
