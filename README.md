@@ -26,9 +26,10 @@ Todos os nove desafios de lógica do programa resolvidos.
 Criação de um App Simulador de Partidas. 
 
 <p float="left">
+   <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173356.png" width = "120" hspace="2">
    <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173229.png" width = "120" hspace="2">
    <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173344.png" width = "120" hspace="2">
-   <img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220804_173356.png" width = "120" hspace="2">
+  
 
 ### SoccerNews-Braza
 
