@@ -6,8 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class MovieRestApiTask {
 
     companion object {
-        const val BASE_URL = "https://raw.githubusercontent.com/"
-
+        const val BASE_URL ="https://tulioalbu.github.io/"
     }
 
     private fun movieProvider(): Retrofit = Retrofit.Builder()

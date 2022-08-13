@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface MovieApi {
 
-    @GET("tulioalbu/Pipoquinha_API/main/moviesList")
+    @GET("Pipoquinha_API/moviesList")
     fun getAllMovies(): Call<List<Movie>>
 
 }

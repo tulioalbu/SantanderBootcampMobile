@@ -21,7 +21,6 @@ class MovieListViewModel : ViewModel() {
     private val movieDataSource = MovieDataSourceImplementation(movieRestApiTask)
     private val movieRepository = MovieRepository(movieDataSource)
     private val moviesListUseCase = MoviesListUseCase(movieRepository)
-
     private var _moviesList = MutableLiveData<List<Movie>>()
     val moviesList : LiveData<List<Movie>>
     get() = _moviesList
