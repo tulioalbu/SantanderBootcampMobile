@@ -68,3 +68,7 @@ Criação de um app para listar repositórios do Github.
 ### Pipoquinha
 
 Criação de um app para recomendação de filmes. 
+
+<img src="https://tulioalbu.github.io/SantanderBootcampMobile/Pipoquinha/Screenshots/Screenshot_20220813_183837.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/SantanderBootcampMobile/Pipoquinha/Screenshots/Screenshot_20220813_183909.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/SantanderBootcampMobile/Pipoquinha/Screenshots/Screenshot_20220813_183925.png" width = "120" hspace="2">
