@@ -3,6 +3,7 @@ package me.dio.githubstage.ui
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import me.dio.githubstage.R
@@ -25,12 +26,14 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
+        setMessage(R.string.label_initial)
         binding.rvRepos.adapter = adapter
 
         viewModel.repos.observe(this) {
             when (it) {
                 MainViewModel.State.Loading -> {
                     dialog.show()
+
                 }
                 is MainViewModel.State.Error -> {
                     createDialog {
@@ -40,10 +43,9 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
                 }
                 is MainViewModel.State.Success -> {
                     dialog.dismiss()
+                    binding.tvMessages.visibility = View.INVISIBLE
                     adapter.submitList(it.list)
                 }
-
-
             }
         }
 
@@ -65,6 +67,11 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
     override fun onQueryTextChange(newText: String?): Boolean {
         Log.e(TAG, "onQueryTextChange: $newText")
         return false
+    }
+
+    private fun setMessage(message: Int) {
+        binding.tvMessages.setText(message)
+        binding.tvMessages.visibility = View.VISIBLE
     }
 
     companion object {

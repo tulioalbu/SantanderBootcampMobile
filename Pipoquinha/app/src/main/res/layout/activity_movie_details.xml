@@ -9,6 +9,7 @@
         android:id="@+id/iv_movie_poster"
         android:layout_width="match_parent"
         android:layout_height="218dp"
+        android:background="#00000E"
         android:contentDescription="Banner"
         android:scaleType="fitCenter" />
 

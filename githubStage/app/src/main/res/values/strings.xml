@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Github Stage</string>
     <string name="action_search">Pesquisar</string>
+    <string name="label_initial">
+        Clique no ícone de pesquisa para procurar repositórios do Github
+    </string>
 </resources>
