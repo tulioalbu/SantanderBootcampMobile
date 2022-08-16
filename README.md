@@ -71,7 +71,7 @@ Criação de um app para recomendação de filmes.
 
 Criação de um app para listar repositórios do Github.
 
-<img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220806_023153.png" width = "120" hspace="2">
-<img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220815_230810.png" width = "120" hspace="2">
-<img src="https://tulioalbu.github.io/Simula22_Projeto-DIO/Screenshots/Screenshot_20220815_231049.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/GithubStage_Projeto-DIO/Screenshots/Screenshot_20220806_023153.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/GithubStage_Projeto-DIO/Screenshots/Screenshot_20220815_230810.png" width = "120" hspace="2">
+<img src="https://tulioalbu.github.io/GithubStage_Projeto-DIO/Screenshots/Screenshot_20220815_231049.png" width = "120" hspace="2">
 
